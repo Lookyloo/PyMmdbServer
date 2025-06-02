@@ -1,7 +1,7 @@
 [project]
-name = "pyproject"
-version = "0.0.1"
-description = "Python CLI and module for project"
+name = "pymmdbserver"
+version = "0.1.0"
+description = "Python CLI and module for MMDB Server"
 authors = [{name="Raphaël Vinot", email="raphael.vinot@circl.lu>"}]
 license = "BSD-3-Clause"
 readme = "README.md"
@@ -14,6 +14,9 @@ dependencies = [
 ]
 
 [project.urls]
+repository = "https://github.com/Lookyloo/PyMmdbServer"
+issues = "https://github.com/Lookyloo/PyMmdbServer"
+documentation = "https://pymmdbserver.readthedocs.io/en/latest/"
 
 [tool.poetry]
 classifiers = [
@@ -28,7 +31,7 @@ classifiers = [
 ]
 
 [project.scripts]
-client = 'pyproject:main'
+mmdbserver = 'pymmdbserver:main'
 
 [project.optional-dependencies]
 docs = ["Sphinx (>=8.2.3) ; python_version >= \"3.11\""]

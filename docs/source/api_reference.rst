@@ -4,11 +4,11 @@ API reference
 .. toctree::
    :maxdepth: 2
 
-.. automodule:: pyproject
+.. automodule:: pymmdbserver
    :members:
 
-PyProject
+PyMmdbServer
 ---------
 
-.. autoclass:: PyProject
+.. autoclass:: PyMmdbServer
    :members:

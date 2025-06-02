@@ -3,28 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PyProject's documentation!
+Welcome to PyMmdbServer's documentation!
 =============================================
 
-This is the client API for `PyProject <https://github.com/Lookyloo/project_template>`_:
-
-  foo
-
+This is the client API for `MMDB Server <https://github.com/adulau/mmdb-server>`_
 
 Installation
 ------------
 
 The package is available on PyPi, so you can install it with::
 
-  pip install pyproject
+  pip install pymmdbserver
 
 
 Usage
 -----
 
-You can use `client` as a python script::
+You can use `mmdbserver` as a python script::
 
-	$ client -h
+	$ mmdbserver -h
 
 Or as a library:
 

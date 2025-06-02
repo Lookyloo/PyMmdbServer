@@ -1,18 +1,19 @@
-# Python client and module for Project Template
+# Python client and module for MMDB Server
 
-This is a simple template used in all the web based APIs in this repository, and a few others.
+This library offers a simple interface to query [MMDB Server](https://github.com/adulau/mmdb-server) using Python.
+It provides both a command-line interface and a library.
 
 ## Installation
 
 ```bash
-pip install pyproject
+pip install pymmdbserver
 ```
 
 ## Usage
 
 ### Command line
 
-You can use the `client` command to do a thing:
+You can use the `mmdbserver` command to query the MMDB Server from the command line.:
 
 ```bash
 ```
