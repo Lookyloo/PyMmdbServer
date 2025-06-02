@@ -39,7 +39,7 @@ docs = ["Sphinx (>=8.2.3) ; python_version >= \"3.11\""]
 [tool.poetry.group.dev.dependencies]
 pylint = "^3.3.7"
 mypy = "^1.16.0"
-types-requests = "^2.32.0.20250515"
+types-requests = "^2.32.0.20250602"
 pytest = "^8.3.5"
 
 [build-system]
