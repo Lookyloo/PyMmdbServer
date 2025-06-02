@@ -22,6 +22,16 @@ Usage
 You can use `mmdbserver` as a python script::
 
 	$ mmdbserver -h
+    usage: mmdbserver [-h] [--url URL] [ip]
+
+    Query a thing.
+
+    positional arguments:
+      ip          IP address to query. If not set, returns the geolookup information from the client IP.
+
+    options:
+      -h, --help  show this help message and exit
+      --url URL   URL of the instance.
 
 Or as a library:
 

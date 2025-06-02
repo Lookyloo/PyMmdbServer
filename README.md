@@ -16,8 +16,18 @@ pip install pymmdbserver
 You can use the `mmdbserver` command to query the MMDB Server from the command line.:
 
 ```bash
+usage: mmdbserver [-h] [--url URL] [ip]
+
+Query a thing.
+
+positional arguments:
+  ip          IP address to query. If not set, returns the geolookup information from the client IP.
+
+options:
+  -h, --help  show this help message and exit
+  --url URL   URL of the instance.
 ```
 
 ### Library
 
-See [API Reference]()
+See [API Reference](https://pymmdbserver.readthedocs.io/en/latest/api_reference.html)
