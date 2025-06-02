@@ -1,6 +1,6 @@
 [project]
 name = "pymmdbserver"
-version = "0.1.0"
+version = "1.1.0"
 description = "Python CLI and module for MMDB Server"
 authors = [{name="Raphaël Vinot", email="raphael.vinot@circl.lu>"}]
 license = "BSD-3-Clause"
