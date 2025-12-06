@@ -5,12 +5,12 @@ description = "Python CLI and module for MMDB Server"
 authors = [{name="Raphaël Vinot", email="raphael.vinot@circl.lu>"}]
 license = "BSD-3-Clause"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 dynamic = [ "classifiers" ]
 
 dependencies = [
-    "requests (>=2.32.3)",
+    "requests (>=2.32.5)",
 ]
 
 [project.urls]
@@ -34,13 +34,13 @@ classifiers = [
 mmdbserver = 'pymmdbserver:main'
 
 [project.optional-dependencies]
-docs = ["Sphinx (>=8.2.3) ; python_version >= \"3.11\""]
+docs = ["Sphinx (>=9.0.4) ; python_version >= \"3.11\""]
 
 [tool.poetry.group.dev.dependencies]
-pylint = "^3.3.7"
-mypy = "^1.16.0"
-types-requests = "^2.32.0.20250515"
-pytest = "^8.3.5"
+pylint = "^3.3.9"
+mypy = "^1.19.0"
+types-requests = "^2.32.4.20250913"
+pytest = "^9.0.1"
 
 [build-system]
 requires = ["poetry-core>=2.0"]
