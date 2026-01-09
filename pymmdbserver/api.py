@@ -57,3 +57,11 @@ class PyMmdbServer():
         '''
         r = self.session.get(urljoin(self.root_url, str(PurePosixPath('geolookup', ip))))
         return r.json()
+
+    def my_ip(self) -> str:
+        '''Only return the IP address of the client making the request.
+
+        :return: The IP address, as a string.
+        '''
+        r = self.session.get(urljoin(self.root_url, 'raw'))
+        return r.text

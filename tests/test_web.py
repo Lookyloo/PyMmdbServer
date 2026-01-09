@@ -22,7 +22,8 @@ class TestBasic(unittest.TestCase):
         self.assertEqual(geolookup_result[0]['country']['iso_code'], 'BE')
 
     def test_self(self) -> None:
+        my_ip = self.client.my_ip()
         my_result = self.client.my_geolookup()
-        my_ip = my_result[0]["ip"]
+        self.assertEqual(my_ip, my_result[0]["ip"])
         geolookup_result = self.client.geolookup(my_ip)
         self.assertEqual(my_result, geolookup_result)
